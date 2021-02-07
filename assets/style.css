@@ -3,9 +3,12 @@
     
 }
  body{
+     position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
 }
 header{
     float: left;
@@ -61,14 +64,16 @@ nav a {
 
 #link{
    top: 16px;
+   left: 20px;
    padding-left: 10px;
    padding-right: 10px;
 }
 #link2{
+    padding-top: 3px;
     margin-left:90px;
    padding-left: 10px;
    padding-right: 10px;
-    left: 20px;
+    left: 50px;
 }
 nav a:hover{
     color: whitesmoke;
@@ -88,6 +93,9 @@ h2{
     border-style: solid;
     border-width: 3px;
     align-items: flex-start;
+}
+h3{
+    font-size: 150%;
 }
 #h22{
     width: 225px;
@@ -125,6 +133,85 @@ p{
 
 .schoolwork:hover{
     opacity: .8;
+}
+#float{
+    position: relative;
+    height: auto;
+    
+}
+figure{
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: rgb(120, 90, 139);
+    opacity: .85;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: gray;
+    border-style:solid;
+    
+}
+h3{
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+.contact{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+.a{
+   
+}
+figure a{
+    font-size: 125%;
+}
+figure a:hover{
+    color: red;
+}
+figure p{
+    width: 100px;
+    margin-left: 45px;
+    font-size: 125%;
+}
+footer{
+    border-color: rgb(120, 90, 139);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px 10px 0 0;
+    height:50px;
+    margin-top: 25px;
+    text-align: center;
+}
+#foot::after{
+    content:'\2764' ;
+}
+@media screen and (max-width:850px) {
+    figure{
+        opacity: 0.8;
+    }
+}
+@media screen and (max-width:800px) {
+    figure{
+        opacity: 0.6;
+    }
+}
+@media screen and (max-width:768px) {
+    figure{
+        opacity: 0.4;
+    }
+}
+@media screen and (max-width:700px) {
+    figure{
+        opacity: 0.2;
+    }
+}
+@media screen and (max-width:650px) {
+    figure{
+        opacity: 0;
+    }
 }
 @media screen and (max-width:850px) {
     #pic{
