@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    
+}
+ body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header{
+    float: left;
+    background-color: rgb(120, 90, 139) ;
+    color:white;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 70px;
+    border-width: 3px;
+    border-color: black;
+    padding-top: 3px;
+    height: 40px;
+    border-style: solid;
+    width: 220px;
+    position: static;
+    text-align: start;
+    background-color: grey;
+    margin-top: 7px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+nav{
+   margin-top:10px;
+    height: 30px;
+    margin-left: 70%;
+    flex-direction: row-reverse;
+
+}
+
+nav a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color:grey ;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    height: 30px;
+    width: 150px;
+    position:relative;
+    margin-left: 10px;
+    padding-top: 3px;
+    text-align: center;
+    text-decoration: none;
+   
+    
+}
+
+#link{
+   top: 16px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+#link2{
+    margin-left:90px;
+   padding-left: 10px;
+   padding-right: 10px;
+    left: 20px;
+}
+nav a:hover{
+    color: whitesmoke;
+}
+
+.aboutme{
+   flex-direction: column;
+    align-items: flex-start;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+h2{
+    font-size: 175%;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    align-items: flex-start;
+}
+#h22{
+    width: 225px;
+}
+#pic{
+    margin-left: 75%;
+}
+img{
+     width: 250px;
+     border-radius: 10px;
+     border-color: gray;
+     border-style:solid;
+}
+p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cards{
+    flex: 1 1 250px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    padding-top: 20px;
+}
+.schoolwork{
+    
+    border-width: 3px;
+    text-align: left;
+    margin-top: 10px;
+    
+    width: 265px;
+    height: 265px;
+}
+
+.schoolwork:hover{
+    opacity: .8;
+}
+@media screen and (max-width:850px) {
+    #pic{
+        opacity: 0.8;
+    }
+}
+@media screen and (max-width:800px) {
+    #pic{
+        opacity: 0.6;
+    }
+}
+@media screen and (max-width:768px) {
+    #pic{
+        opacity: 0.4;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #pic{
+        opacity: 0.2;
+    }
+}
+@media screen and (max-width:650px) {
+    #pic{
+        opacity: 0;
+    }
+}
