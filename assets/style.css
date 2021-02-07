@@ -171,12 +171,13 @@ figure a{
 figure a:hover{
     color: red;
 }
-figure p{
+figure a{
     width: 100px;
     margin-left: 45px;
     font-size: 110%;
 }
 footer{
+    
     border-color: rgb(120, 90, 139);
     border-width: 2px;
     border-style: solid;
@@ -184,6 +185,11 @@ footer{
     height:50px;
     margin-top: 25px;
     text-align: center;
+}
+#foot{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
 }
 #foot::after{
     content:'\2764' ;
